@@ -55,14 +55,14 @@ nav li a {
 }
 
 .banner-title {
-    color: var(--dark-01, #131313);
+    color: #131313;
     text-align: center;
     font-size: 64px;
     font-weight: 700;
 }
 
 .banner-description {
-    color: var(--dark-03, #727272);
+    color: #727272;
     font-size: 16px;
     font-weight: 400;
 }
@@ -70,6 +70,42 @@ nav li a {
 .banner img {
     width: 100%;
     margin-top: 20px;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.teams-container {
+    display: flex;
+    align-items: center;
+}
+
+.teams-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.teams-content {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.teams-title {
+    font-size: 2.8rem;
+}
+
+.teams-title .quick-list {
+    color: #727272;
+    font-weight: 500;
+
+}
+
+.teams-title .text-features {
+    color: #FF900E;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 576px) {
