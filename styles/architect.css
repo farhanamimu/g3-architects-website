@@ -150,7 +150,19 @@ main {
 .sponsors-img-container img {
     width: 165px;
 }
-
+footer{
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    margin: 130px 240px 216px 240px;
+}
+.copy{
+    text-align: center;
+    margin-top: 50px;
+    padding: 39px 410px;
+}
 
 @media screen and (max-width: 576px) {
     header {
